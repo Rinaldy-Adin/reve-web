@@ -21,30 +21,34 @@ const GlobalStyle = createGlobalStyle`
     background: transparent;
     box-sizing: inherit;
 
-    font-family: Poppins, sans-serif;
+    font-family:  Montserrat, 'sans-serif';
+    font-weight: 500;
     }
 
     h1 {
-        font-size: 48px;
+        font-size: 28px;
+        line-height: 34px;
     }
 
     h2 {
-        font-size: 32px;
-        line-height: 48px;
+        font-size: 22px;
+        line-height: 27px;
+        font-weight: 500;
     }
     
     h3 {
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 20px;
+        line-height: 24px;
     }
     
     h4 {
         font-size: 18px;
-        line-height: 27px;
+        line-height: 22px;
     }
 
     p {
-        font-family: Montserrat, 'sans-serif';
+        line-height: 20px;
+        font-weight: 400;
     }
 
     html {
@@ -87,10 +91,6 @@ const GlobalStyle = createGlobalStyle`
     table {
     border-collapse: collapse;
     border-spacing: 0;
-    }
-
-    h1, h2 {
-        font-weight: 700;
     }
 
     input, select {
