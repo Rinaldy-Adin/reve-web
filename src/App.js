@@ -11,6 +11,7 @@ function App() {
             <Routes>
                 <Route path='home' element={<Home />} />
                 <Route path='catalogue' element={<Catalogue />} />
+                <Route path='*' element={<Navigate to='/home' replace />} />
             </Routes>
             <Footer />
         </div>
