@@ -2,7 +2,7 @@ import Home from './pages/Home';
 import Catalogue from './pages/Catalogue';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import { Router, Routes, Route } from 'react-router-dom';
+import { Router, Routes, Route, Navigate } from 'react-router-dom';
 
 function App() {
     return (
